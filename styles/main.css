@@ -67,9 +67,33 @@ header p {
 article {
   width: 680px;
   height: 700px;
-  background-color: blue;
+  background-color: #336699;
   background-position: left;
   float: left;
+}
+article h1 {
+  text-align: center;
+  font-family: "Fugaz One";
+  text-shadow: 4px 4px 4px #000000;
+  font-size: 20px;
+  color: silver;
+  margin: 20px 0 0;
+}
+.byline {
+
+  margin: 212px;
+  font-family: "Fugaz One";
+  text-shadow: 4px 4px 4px #000000;
+
+  color: silver;
+
+}
+article h2 {
+  text-align: center;
+  font-family: "Fugaz One";
+  text-shadow: 4px 4px 4px #000000;
+  font-size: 20px;
+  color: silver;
 }
 .sidebar {
   width: 300px;
