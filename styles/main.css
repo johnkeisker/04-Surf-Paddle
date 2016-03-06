@@ -112,9 +112,26 @@ article h2 {
   background-position: right;
   float: right;
 }
-img.drygoods {
-  height: 50px;
-  width: 50px;
+h1 {
+  margin: 100px 0 0 75px;
+}
+h2 {
+  font-size: 15px;
+  margin: 0 10px 50px 40px;
+}
+h3{
+  font-size: 15px;
+  margin: 0 10px 50px 10px;
+}
+h4 {
+  font-size: 15px;
+  margin: 0 10px 50px 10px;
+}
+.sidebar img {
+  height: 200px;
+  width: 200px;
+  margin: 0 0 0 50px;
+  border-radius: 0;
 }
 footer {
   width: 100%;
