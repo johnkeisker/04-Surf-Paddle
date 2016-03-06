@@ -67,40 +67,54 @@ header p {
 article {
   width: 680px;
   height: 700px;
-  background-color: #336699;
+  background-color: #F0F8FF;
   background-position: left;
   float: left;
+}
+article p {
+  margin: 10px 20px 0 20px;
+  font-family: arial;
+  font-size: 15px;
+  text-align: left;
+  color: #696969;
 }
 article h1 {
   text-align: center;
   font-family: "Fugaz One";
   text-shadow: 4px 4px 4px #000000;
-  font-size: 20px;
-  color: silver;
+  font-size: 40px;
+  color: red;
   margin: 20px 0 0;
 }
 .byline {
-
-  margin: 212px;
+  margin: 0 10px 0 90px;
   font-family: "Fugaz One";
-  text-shadow: 4px 4px 4px #000000;
+  font-size: 17px;
+  color: #006699;
 
-  color: silver;
-
+}
+.timestamp {
+  font-size: 12px;
+  text-decoration: underline;
+  color: gray;
 }
 article h2 {
   text-align: center;
   font-family: "Fugaz One";
   text-shadow: 4px 4px 4px #000000;
-  font-size: 20px;
-  color: silver;
+  font-size: 30px;
+  color: red;
 }
 .sidebar {
   width: 300px;
   height: 700px;
-  background-color: green;
+  background-color: #B0C4DE;
   background-position: right;
   float: right;
+}
+img.drygoods {
+  height: 50px;
+  width: 50px;
 }
 footer {
   width: 100%;
