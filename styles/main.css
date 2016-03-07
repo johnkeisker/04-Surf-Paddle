@@ -13,14 +13,14 @@ header {
   width: 980px;
   margin: 0 auto;
 }
-img {
+/*img {
   float:left;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
 
   margin-left: 100px;
-  margin-top: 2.5px;
-}
+  margin-top: 5px;
+}*/
 a.logo {
   font-size: 25px;
   text-shadow: 4px 4px 4px #000000;
@@ -183,6 +183,33 @@ footer h1 {
 .images {
    width: 980px;
  }
+div img.trey {
+  float: left;
+  margin: 0 0 0 100px;
+  height: 50px;
+  width: 50px;
+}
+div img.page {
+  float: left;;
+  margin: 0 0 0 10px;
+  height: 10px;
+  width: 50px;
+}
+footer img .mike {
+  float: right;
+  margin-left: 0px;
+  margin-top: 30px;
+  height: 50px;
+  width: 50px;
+}
+footer img .jon {
+  float: right;
+  margin: 0px;
+  margin-top: 30px;
+  height: 50px;
+  width: 50px;
+}
+
 
 
  .images .link {
