@@ -184,14 +184,16 @@ footer h1 {
    width: 980px;
  }
 
+
  .images .link {
    position: relative;
+   height: 245px;
    width: 245px;
    float: left;
  }
 
- .images .overlay {
-   position: absolute;
+ /*.images .overlay {
+   position: absolute;;
    top: 0;
    left: 0;
    width: 245px;
@@ -204,4 +206,4 @@ footer h1 {
  .images .overlay:hover {
    opacity: 0;
    transition: opacity 2s;
- }
+ }*/
