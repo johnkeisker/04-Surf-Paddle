@@ -138,15 +138,32 @@ h4 {
   float: right;
 }
 .sidebar img {
-  height: 225px;
-  width: 225px;
-  margin: 0 0 10px 30px;
+  height: 175px;
+  width: 175px;
+  margin: 0 0 0 50px;
   border-radius: 0;
 }
 .sidebar a {
-  font-size: 12px;
-  margin: 275px 0 10px 220px;
+  font-size: 15px;
+  font-family: "Fugaz One";
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+  margin: 275px 0 10px 150px;
   }
+h5 {
+  text-align: left;
+  margin: 50px 10px 0 50px;
+  font-family: "Fugaz One";
+  font-size: 17px;
+  color: #006699;
+}
+.sidebar p {
+  font-size: 15px;
+  text-align: left;
+  color: #696969;
+  margin: 5px 65px 15px 45px;
+}
 footer {
   width: 100%;
   height: 250px;
