@@ -185,27 +185,27 @@ footer h1 {
   color: #006699;
   text-shadow: 4px 4px 4px #000000;
 }
+.images {
+  width: 800px;
+  margin: 0 auto;
+}
 img.Trey {
   float: left;
-  margin: 5px 0 0 200px;
   height: 200px;
   width: 200px;
 }
 img.Page {
   float: right;
-  margin: 5px 0 0 0;
   height: 200px;
   width: 200px;
 }
 img.Mike {
   float: left;
-  margin: 5px 0;
   height: 200px;
   width: 200px;
 }
 img.Jon {
   float: left;
-  margin: 5px 0;
   height: 200px;
   width: 200px;
 }
@@ -215,12 +215,12 @@ img.Jon {
 
  }
 
- /*.images .overlay {
+ .images .overlay {
    position: absolute;;
    top: 0;
    left: 0;
-   width: 245px;
-   height: 245px;
+   width: 200px;
+   height: 200px;
    background-color: #006699;
    opacity: .4;
    transition: opacity 2s;
@@ -229,4 +229,25 @@ img.Jon {
  .images .overlay:hover {
    opacity: 0;
    transition: opacity 2s;
- }*/
+ }
+ .bottom-bar {
+   padding-bottom: 25px;
+   background-color: #006699;
+ }
+ .circles {
+   height: 25px;
+   width: 25px;
+   margin-left: 300px;
+   margin-top: 25px;
+ }
+ .bottom-bar p {
+   font-size: 12px;
+   float: right;
+
+ }
+ .bottom-nav-bar {
+   float: right;
+ }
+ .bottom-nav-bar a {
+   font-size: 12px;
+ }
