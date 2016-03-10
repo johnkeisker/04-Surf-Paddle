@@ -13,25 +13,27 @@ header {
   width: 980px;
   margin: 0 auto;
 }
-/*img {
+img.header-logo {
   float:left;
-  width: 50px;
-  height: 50px;
-
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   margin-left: 100px;
   margin-top: 5px;
-}*/
+}
 a.logo {
   font-size: 25px;
   text-shadow: 4px 4px 4px #000000;
   width: 300px;
   float: left;
+  padding-top: 10px;
   color: silver;
 }
 nav {
   text-align: right;
   float: left;
   width: 680px;
+  padding-top: 10px;
 }
 nav a {
   margin-left: 10px;
@@ -112,35 +114,31 @@ article h2 {
   background-position: right;
   float: right;
 }
+img.profile-pic {
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 105px;
+  border-radius: 50%;
+
+}
+
 h1 {
   text-align: center;
-  margin: 120px 50px 0 10px;
+  margin: 10px 50px 0 10px;
   font-family: "Fugaz One";
   font-size: 17px;
   color: #006699;
 }
-h2 {
-  font-size: 12px;
+.sidebar h2 {
+  font-size: 10px;
   color: gray;
-  margin: 0 10px 25px 40px;
-  float:left;
+  float: left;
+  margin: 0 0 20px 40px;
 }
-h3{
-  font-size: 12px;
-  color: gray;
-  margin: 0 10px 25px 20px;
-  float: left;;
-}
-h4 {
-  font-size: 12px;
-  color: gray;
-  margin: 0 60px 25px 10px;
-  float: right;
-}
-.sidebar img {
-  height: 175px;
-  width: 175px;
-  margin: 0 0 0 50px;
+img.store {
+  height: 250px;
+  width: 200px;
+  padding-left: 40px;
 }
 .sidebar a {
   font-size: 15px;
@@ -148,11 +146,11 @@ h4 {
   font-weight: bold;
   text-decoration: none;
   color: red;
-  margin: 275px 0 10px 150px;
+  margin: 275px 0 10px 165px;
   }
 h5 {
   text-align: left;
-  margin: 50px 10px 0 50px;
+  margin: 50px 10px 0 40px;
   font-family: "Fugaz One";
   font-size: 17px;
   color: #006699;
@@ -161,12 +159,12 @@ h5 {
   font-size: 15px;
   text-align: left;
   color: #696969;
-  margin: 5px 65px 15px 45px;
+  margin: 5px 65px 15px 40px;
 }
 footer {
   width: 100%;
-  height: 250px;
-  padding: 20px 0 0 0;
+  height: 350px;
+  padding: 5px 0 0 0;
   background-size: cover;
   background-color: #F5F5F5;
   background-repeat: no-repeat;
@@ -174,46 +172,40 @@ footer {
 }
 footer h1 {
   text-align: center;
-  margin: 0 50px 0 10px;
+  margin: 0 50px 0px 10px;
   font-family: "Fugaz One";
   font-size: 30px;
   color: #006699;
   text-shadow: 4px 4px 4px #000000;
 }
-.images {
-   width: 980px;
- }
-.trey {
+img.Trey {
   float: left;
-  margin: 0 0 0 100px;
-  height: 50px;
-  width: 50px;
+  margin: 5px 0 0 200px;
+  height: 200px;
+  width: 200px;
 }
-.link.page {
+img.Page {
+  float: right;
+  margin: 5px 0 0 0;
+  height: 200px;
+  width: 200px;
+}
+img.Mike {
   float: left;
-  margin: 0 0 0 0;
-  height: 10px;
-  width: 10px;
+  margin: 5px 0;
+  height: 200px;
+  width: 200px;
 }
-.mike {
-  float: right;
-  margin-left: 0px;
-  margin-top: 30px;
-  height: 50px;
-  width: 50px;
+img.Jon {
+  float: left;
+  margin: 5px 0;
+  height: 200px;
+  width: 200px;
 }
-.jon {
-  float: right;
-  margin: 0px;
-  margin-top: 30px;
-  height: 50px;
-  width: 50px;
-}
- .images .link {
+ .link {
    position: relative;
-   height: 245px;
-   width: 245px;
    float: left;
+
  }
 
  /*.images .overlay {
