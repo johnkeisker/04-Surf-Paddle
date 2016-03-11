@@ -41,6 +41,10 @@ nav a {
   font-size: 25px;
   font-style: normal;
   text-decoration: none;
+
+}
+nav a:hover {
+  background-color: silver;
 }
 nav a.tour-schedule {
   color: #ee0000;
@@ -135,11 +139,14 @@ h1 {
   font-size: 17px;
   color: #006699;
 }
-.sidebar h2 {
+.sidebar nav {
   font-size: 10px;
   color: gray;
   float: left;
   margin: 0 0 20px 40px;
+}
+.sidebar nav a:hover {
+  background-color:red,
 }
 img.store {
   height: 250px;
@@ -153,6 +160,9 @@ img.store {
   text-decoration: none;
   color: red;
   margin: 275px 0 10px 165px;
+  }
+  .sidebar a:hover {
+    background-color: silver;
   }
 h5 {
   text-align: left;
