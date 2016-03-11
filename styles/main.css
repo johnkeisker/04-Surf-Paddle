@@ -110,6 +110,10 @@ article h1 {
   text-decoration: underline;
   color: gray;
 }
+p a {
+  color: blue;
+  text-decoration: underline;
+}
 article h2 {
   text-align: center;
   font-family: "Fugaz One";
@@ -139,21 +143,21 @@ h1 {
   font-size: 17px;
   color: #006699;
 }
-.sidebar nav {
-  font-size: 10px;
+.sidebar-a a {
+  text-decoration: none;
   color: gray;
   float: left;
   margin: 0 0 20px 40px;
 }
-.sidebar nav a:hover {
-  background-color:red,
+.sidebar-a a:hover  {
+  background-color:#006699;
 }
 img.store {
   height: 250px;
   width: 200px;
   padding-left: 40px;
 }
-.sidebar a {
+.buystuff {
   font-size: 15px;
   font-family: "Fugaz One";
   font-weight: bold;
@@ -161,7 +165,7 @@ img.store {
   color: red;
   margin: 275px 0 10px 165px;
   }
-  .sidebar a:hover {
+  .buystuff:hover {
     background-color: silver;
   }
 h5 {
